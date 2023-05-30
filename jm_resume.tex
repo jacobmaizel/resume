@@ -1,0 +1,53 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{enumitem}
+
+\begin{document}
+
+\pagestyle{empty} % No page numbers
+
+% Title section
+\begin{center}
+    \Huge \textbf{Your Name} \\
+    \small \textit{Your Profession}
+\end{center}
+
+% Contact information
+\begin{center}
+    \begin{tabular}{ c c c }
+        \textit{Address} & \textit{Phone} & \textit{Email} \\
+        City, State & (123) 456-7890 & example@example.com
+    \end{tabular}
+\end{center}
+
+% Education section
+\section*{Education}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{University Name}, Degree Name, Year
+    \item \textbf{College Name}, Degree Name, Year
+\end{itemize}
+
+% Experience section
+\section*{Experience}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Job Title}, Company Name, Location, Year - Present
+    \begin{itemize}
+        \item Achievement or responsibility description.
+        \item Achievement or responsibility description.
+    \end{itemize}
+    \item \textbf{Job Title}, Company Name, Location, Year - Year
+    \begin{itemize}
+        \item Achievement or responsibility description.
+        \item Achievement or responsibility description.
+    \end{itemize}
+\end{itemize}
+
+% Skills section
+\section*{Skills}
+\begin{itemize}[leftmargin=*]
+    \item Skill 1, Skill 2, Skill 3
+    \item Skill 4, Skill 5, Skill 6
+\end{itemize}
+
+\end{document}
